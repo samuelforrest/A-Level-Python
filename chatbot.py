@@ -1,3 +1,10 @@
+def remove_punctuation_and_capitals(text):
+  result = ""
+  for char in text:
+     if char.isLower() or char == " ":
+        restult += char
+  return result
+
 print("Hello, My name is Jarvis. I am a chatbot.")
 user_input = input("What is your name? ") # This will ask the user for their name and append to variable user_name
 
